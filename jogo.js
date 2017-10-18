@@ -60,7 +60,7 @@ function iniciaJogo(){
 	}
 
 	function game_over(){
-		alert('Fim de jogo, você não conseguiu estourar todos os balões');		
+		alert('Fim de jogo, seja mais rápido da próxima vez');		
 	}
 
 	function cria_baloes(qtd_baloes){
