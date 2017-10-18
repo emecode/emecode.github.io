@@ -45,7 +45,7 @@ function iniciaJogo(){
 
 		segundos = segundos -1;
 
-		if (segundos == 0) {
+		if (segundos == -1) {
 			clearTimeout(timerId); // para a execução da função do set timeout
 			game_over();
 			return false;
