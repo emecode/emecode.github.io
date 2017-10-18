@@ -45,7 +45,7 @@ function iniciaJogo(){
 
 		segundos = segundos -1;
 
-		if (segundos == -1) {
+		if (segundos == 0) {
 			clearTimeout(timerId); // para a execução da função do set timeout
 			game_over();
 			return false;
@@ -60,7 +60,7 @@ function iniciaJogo(){
 	}
 
 	function game_over(){
-		alert('Fim de jogo, seja mais rápido da próxima vez');		
+		alert('Fim de jogo, trouxa');		
 	}
 
 	function cria_baloes(qtd_baloes){
