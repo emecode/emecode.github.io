@@ -78,11 +78,11 @@ body {
   -webkit-tap-highlight-color: #222222; }
 
 .img-logo {
-  height: 60px;
-  width: 150px;
+  height: 35px;
+  width: 35px;
   display: block;
   background: url('../img/emecode.svg') no-repeat;
-  background-size: contain;
+  background-size: 550% 550%;
   color: transparent;
 }
 
